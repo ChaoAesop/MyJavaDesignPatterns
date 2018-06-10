@@ -19,7 +19,5 @@ public class AppRun {
         //恢复实体状态
         person.restoreMemento(caretaker.getMemento("001"));
         System.out.println(person);
-
-
     }
 }
